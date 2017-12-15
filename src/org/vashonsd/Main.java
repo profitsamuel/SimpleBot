@@ -3,7 +3,10 @@ package org.vashonsd;
 public class Main {
 
     public static void main(String[] args) {
-	    Bot firstBot = new Bot("Sydney");
-	    System.out.println(firstBot.getName());
+        // System.out.println("Hello World.");
+        Bot newBot = new Bot();
+        System.out.println(newBot.randomGreeting());
+        System.out.println(newBot.insult1());
+        System.out.println(newBot.leaving());
     }
 }
